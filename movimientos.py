@@ -62,7 +62,9 @@ def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
     ]
     if x_inicial == x_final or y_inicial == y_final:
         if tablero[x_inicial][y_inicial].lower() == 't' :
-
+            for y in range(y_inicial,y_final-1):
+                if tablero[x_inicial][y]!=" ":
+                    break
 
 
 
