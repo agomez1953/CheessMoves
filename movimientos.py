@@ -19,26 +19,7 @@ def obtener_nombre_pieza(simbolo):
     :param simbolo: la representacion de la pieza segun el enunciado
     :return: El nombre y color de la pieza
     """
-<<<<<<< HEAD
-    nombre=input()
-    p = 'Peon blanco'
-    t = 'torre blanco'
-    k = 'caballo blanco'
-    a = 'alfil blanco'
-    q = 'reina blanco'
-    r = 'rey blanco'
-    P='Peon negro'
-    T='Torre negra'
-    K='Caballo negro'
-    A='Alfil negro'
-    Q='Reina negra'
-    R='Rey negro'
-    vacio=""
-    return ('su ficha es',nombre)
 
-
-
-=======
     tipo = 'Negro'
     if simbolo.islower():
         tipo = 'blanco'
@@ -57,4 +38,4 @@ def obtener_nombre_pieza(simbolo):
         return 'Rey ' + tipo
     else:
         return 'No es una pieza'
->>>>>>> db01fb536b753498c71fd8395c7b4ecf23970bab
+
