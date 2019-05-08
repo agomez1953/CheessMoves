@@ -39,9 +39,31 @@ def obtener_nombre_pieza(simbolo):
     else:
         return 'No es una pieza'
 
-<<<<<<< HEAD
-=======
-
 def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
-    pass
->>>>>>> a740bd3c89cbe4a152bac8807a8cdaae13386dbb
+    """
+    >>> mover_torre(tablero[[]],0,0,1,0)
+
+    :param tablero:
+    :param x_inicial:
+    :param y_inicial:
+    :param x_final:
+    :param y_final:
+    :return:
+    """
+    tablero = [
+        ['t', 'k', 'a', 'q', 'r', 'a', 'k', 't'],
+        ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'],
+        [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+        [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+        [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+        [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+        ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
+        ['T', 'K', 'A', 'R', 'Q', 'A', 'K', 'T']
+    ]
+    if x_inicial == x_final or y_inicial == y_final:
+        if tablero[x_inicial][y_inicial].lower() == 't' :
+
+
+
+
+
