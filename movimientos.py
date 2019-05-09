@@ -41,17 +41,6 @@ def obtener_nombre_pieza(simbolo):
 
 def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
     """
-    >>> mover_torre(tablero[[]],0,0,1,0)
-    tablero = [
-    ['t', 'k', 'a', 'q', 'r', 'a', 'k', 't'],
-    ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'],
-    [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
-    [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
-    [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
-    [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
-    ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
-    ['T', 'K', 'A', 'R', 'Q', 'A', 'K', 'T']
-    ]
 
     :param tablero:
     :param x_inicial:
@@ -75,6 +64,18 @@ def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
         tablerocop[x_inicial][y_final] = 't'
         tablerocop[x_inicial][y_inicial] = ' '
     return tablerocop
+def mover_alfil(tablero, x_inicial, y_inicial, x_final, y_final):
+    """
 
+    :param tablero:
+    :param x_inicial:
+    :param y_inicial:
+    :param x_final:
+    :param y_final:
+    :return:
+    """
+    tablerocop = tablero.copy()
+    if (x_inicial - y_inicial == x_final - y_final) or (y_inicial - x_inicial == y_final - x_final) and tablerocop[x_inicial][y_inicial].lower() == 'r':
+        if
 
 

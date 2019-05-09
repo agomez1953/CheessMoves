@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="526da42d-35c2-45d4-b19a-71a2801728cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movimientos.py" beforeDir="false" afterPath="$PROJECT_DIR$/movimientos.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movimientos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="464">
+              <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -133,6 +132,24 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Doctest obtener_nombre_pieza (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="CheessMoves" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movimientos.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="obtener_nombre_pieza" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="Doctest obtener_nombre_pieza" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="CheessMoves" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,8 +171,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Doctest mover_torre" />
-        <item itemvalue="Python tests.Doctest obtener_nombre_pieza (1)" />
+        <item itemvalue="Python tests.Doctest obtener_nombre_pieza (2)" />
         <item itemvalue="Python tests.Doctest obtener_nombre_pieza" />
+        <item itemvalue="Python tests.Doctest obtener_nombre_pieza (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -173,24 +191,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctest_obtener_nombre_pieza - 2019.05.07 at 18h 23m 49s.xml">
-      <configuration name="Doctest obtener_nombre_pieza" configurationId="tests" />
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 36m 47s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_obtener_nombre_pieza - 2019.05.07 at 18h 26m 27s.xml">
-      <configuration name="Doctest obtener_nombre_pieza" configurationId="tests" />
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 37m 01s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_obtener_nombre_pieza - 2019.05.07 at 18h 27m 19s.xml">
-      <configuration name="Doctest obtener_nombre_pieza" configurationId="tests" />
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 37m 28s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_obtener_nombre_pieza - 2019.05.07 at 18h 29m 45s.xml">
-      <configuration name="Doctest obtener_nombre_pieza" configurationId="tests" />
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 37m 56s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_obtener_nombre_pieza_(1) - 2019.05.07 at 18h 51m 54s.xml">
-      <configuration name="Doctest obtener_nombre_pieza (1)" configurationId="tests" />
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 38m 42s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 38m 46s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 39m 04s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 39m 10s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 39m 46s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 39m 54s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -200,9 +234,9 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32937366" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -214,8 +248,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/movimientos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="464">
+          <caret line="77" column="7" lean-forward="true" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
         </state>
       </provider>
     </entry>
