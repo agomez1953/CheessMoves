@@ -42,6 +42,16 @@ def obtener_nombre_pieza(simbolo):
 def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
     """
     >>> mover_torre(tablero[[]],0,0,1,0)
+    tablero = [
+    ['t', 'k', 'a', 'q', 'r', 'a', 'k', 't'],
+    ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'],
+    [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+    [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+    [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+    [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+    ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
+    ['T', 'K', 'A', 'R', 'Q', 'A', 'K', 'T']
+    ]
 
     :param tablero:
     :param x_inicial:
@@ -50,22 +60,21 @@ def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
     :param y_final:
     :return:
     """
-    tablero = [
-        ['t', 'k', 'a', 'q', 'r', 'a', 'k', 't'],
-        ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'],
-        [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
-        [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
-        [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
-        [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
-        ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
-        ['T', 'K', 'A', 'R', 'Q', 'A', 'K', 'T']
-    ]
-    if x_inicial == x_final or y_inicial == y_final:
-        if tablero[x_inicial][y_inicial].lower() == 't' :
-            for y in range(y_inicial,y_final-1):
-                if tablero[x_inicial][y]!=" ":
-                    break
-
+    tablerocop = tablero.copy()
+    if (x_inicial == x_final or y_inicial == y_final) and tablerocop[x_inicial][y_inicial].lower() == 't':
+        if x_inicial != x_final:
+            for x in range(x_inicial + 1, x_final):
+                if tablerocop[x][y_inicial] != ' ':
+                    raise ValueError('El camino no es valido')
+        tablerocop[x_final][y_inicial] = 't'
+        tablerocop[x_inicial][y_inicial] = ' '
+        if y_inicial != y_final:
+            for y in range(y_inicial + 1, y_final):
+                if tablerocop[x_inicial][y] != ' ':
+                    raise ValueError('El camino no es valido')
+        tablerocop[x_inicial][y_final] = 't'
+        tablerocop[x_inicial][y_inicial] = ' '
+    return tablerocop
 
 
 
