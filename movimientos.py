@@ -50,7 +50,7 @@ def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
     :return:
     """
     tablerocop = tablero.copy()
-    if (x_inicial == x_final or y_inicial == y_final) and tablerocop[x_inicial][y_inicial].lower() == 't':
+    if tablerocop[x_inicial][y_inicial].lower() == 't' and (x_inicial == x_final or y_inicial == y_final):
         if x_inicial != x_final:
             for x in range(x_inicial + 1, x_final):
                 if tablerocop[x][y_inicial] != ' ':
@@ -75,7 +75,7 @@ def mover_alfil(tablero, x_inicial, y_inicial, x_final, y_final):
     :return:
     """
     tablerocop = tablero.copy()
-    if (x_inicial - y_inicial == x_final - y_final) or (y_inicial - x_inicial == y_final - x_final) and tablerocop[x_inicial][y_inicial].lower() == 'r':
-        if
+    if tablerocop[x_inicial][y_inicial].lower() == 'r' and (x_inicial - y_inicial == x_final - y_final) or (y_inicial - x_inicial == y_final - x_final):
+
 
 
