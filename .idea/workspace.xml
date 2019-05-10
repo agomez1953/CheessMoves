@@ -13,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movimientos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="101" selection-start-line="101" selection-end-line="114" />
+            <state relative-caret-position="434">
+              <caret line="113" column="10" lean-forward="true" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="479">
-              <caret line="97" column="37" lean-forward="true" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -42,6 +42,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/tests.py" />
         <option value="$PROJECT_DIR$/movimientos.py" />
       </list>
     </option>
@@ -193,15 +194,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 36m 47s.xml">
-      <configuration name="Doctest mover_torre" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 37m 01s.xml">
-      <configuration name="Doctest mover_torre" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 37m 28s.xml">
-      <configuration name="Doctest mover_torre" configurationId="tests" />
-    </history-entry>
     <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 37m 56s.xml">
       <configuration name="Doctest mover_torre" configurationId="tests" />
     </history-entry>
@@ -223,12 +215,20 @@
     <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 39m 54s.xml">
       <configuration name="Doctest mover_torre" configurationId="tests" />
     </history-entry>
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 19h 09m 42s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 19h 12m 56s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 19h 39m 58s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -236,8 +236,8 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -248,20 +248,20 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movimientos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="101" selection-start-line="101" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
-          <caret line="97" column="37" lean-forward="true" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movimientos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="113" column="10" lean-forward="true" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
         </state>
       </provider>
     </entry>

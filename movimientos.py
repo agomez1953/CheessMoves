@@ -99,18 +99,18 @@ def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
 
 
     return tablero
-# def mover_alfil(tablero, x_inicial, y_inicial, x_final, y_final):
-#     """
-#
-#     :param tablero:
-#     :param x_inicial:
-#     :param y_inicial:
-#     :param x_final:
-#     :param y_final:
-#     :return:
-#     """
-#     tablerocop = tablero.copy()
-#     if (x_inicial - y_inicial == x_final - y_final) or (y_inicial - x_inicial == y_final - x_final) and tablerocop[x_inicial][y_inicial].lower() == 'r':
-#         if
+def mover_alfil(tablero, x_inicial, y_inicial, x_final, y_final):
+    """
+
+    :param tablero:
+    :param x_inicial:
+    :param y_inicial:
+    :param x_final:
+    :param y_final:
+    :return:
+    """
+    tablerocop = tablero.copy()
+    if (x_inicial - y_inicial == x_final - y_final) or (y_inicial - x_inicial == y_final - x_final) and tablerocop[x_inicial][y_inicial].lower() == 'r':
+        if
 
 
