@@ -40,30 +40,56 @@ def obtener_nombre_pieza(simbolo):
         return 'No es una pieza'
 
 def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
-    """
+     # Valido que se este moviendo una torre
+     if tablero[y_inicial][x_inicial].lower() == 't':
 
-    :param tablero:
-    :param x_inicial:
-    :param y_inicial:
-    :param x_final:
-    :param y_final:
-    :return:
-    """
-    tablerocop = tablero.copy()
-    if tablerocop[x_inicial][y_inicial].lower() == 't' and (x_inicial == x_final or y_inicial == y_final):
-        if x_inicial != x_final:
-            for x in range(x_inicial + 1, x_final):
-                if tablerocop[x][y_inicial] != ' ':
-                    raise ValueError('El camino no es valido')
-        tablerocop[x_final][y_inicial] = 't'
-        tablerocop[x_inicial][y_inicial] = ' '
-        if y_inicial != y_final:
-            for y in range(y_inicial + 1, y_final):
-                if tablerocop[x_inicial][y] != ' ':
-                    raise ValueError('El camino no es valido')
-        tablerocop[x_inicial][y_final] = 't'
-        tablerocop[x_inicial][y_inicial] = ' '
-    return tablerocop
+        # Valido que se este moviendo en y
+        if x_inicial == x_final and y_inicial != y_final:
+
+            # Si me muevo hacia abajo
+            if y_inicial < y_final:
+                y_auxiliar = y_inicial + 1
+            # Si no me muevo hacia abajo
+            else:
+                y_auxiliar = y_inicial - 1
+            # Reviso  el camino por obstaculos
+            for y in range(y_auxiliar, y_final):
+                if tablero[y][x_inicial] != ' ':
+                    raise Exception('No hay camino para mover la torre')
+
+
+
+
+
+        # Valido el movimiento en x
+        elif x_inicial != x_final and y_inicial == y_final:
+            # validar si me muevo a la derecha
+            if x_inicial < x_final:
+                x_auxiliar = x_inicial + 1
+            else:
+                x_auxiliar = x_inicial - 1
+
+            # Reviso el camino por obtaculos
+            for x in range(x_auxiliar, x_final):
+                if tablero[x][y_inicial] != ' ':
+                    raise Exception('No hay camino para mover la torre')
+
+
+        else:
+            raise Exception('Movimiento invalido para la torre')
+
+        if tablero[y_final][x_inicial] == ' ' \
+                or (tablero[y_inicial][x_inicial].islower() != tablero[y_final][x_inicial].islower()):
+            tablero[y_final][x_inicial] = tablero[y_inicial][x_inicial]
+            tablero[y_inicial][x_inicial] = ' '
+        else:
+            raise Exception('No puedo comer mis propias piezas')
+
+    else:
+        raise Exception('La pieza en x = {0} y={1} no es una torre'.format(x_inicial, y_inicial))
+
+
+    return tablero
 def mover_alfil(tablero, x_inicial, y_inicial, x_final, y_final):
     """
 
