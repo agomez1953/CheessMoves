@@ -17,7 +17,11 @@
         <entry file="file://$PROJECT_DIR$/movimientos.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="434">
+
               <caret line="113" column="10" lean-forward="true" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
+
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+
             </state>
           </provider>
         </entry>
@@ -98,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctest mover_torre">
+  <component name="RunManager" selected="Python tests.Doctests in movimientos">
     <configuration name="Doctest mover_torre" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="CheessMoves" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,8 +175,27 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Doctests in movimientos" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="CheessMoves" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movimientos.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Doctests in movimientos" />
         <item itemvalue="Python tests.Doctest mover_torre" />
         <item itemvalue="Python tests.Doctest obtener_nombre_pieza (2)" />
         <item itemvalue="Python tests.Doctest obtener_nombre_pieza" />
@@ -194,6 +217,15 @@
     <servers />
   </component>
   <component name="TestHistory">
+
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 37m 01s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 37m 28s.xml">
+      <configuration name="Doctest mover_torre" configurationId="tests" />
+    </history-entry>
+
+    
     <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 37m 56s.xml">
       <configuration name="Doctest mover_torre" configurationId="tests" />
     </history-entry>
@@ -215,14 +247,6 @@
     <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 39m 54s.xml">
       <configuration name="Doctest mover_torre" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctest_mover_torre - 2019.05.09 at 19h 09m 42s.xml">
-      <configuration name="Doctest mover_torre" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctest_mover_torre - 2019.05.09 at 19h 12m 56s.xml">
-      <configuration name="Doctest mover_torre" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctest_mover_torre - 2019.05.09 at 19h 39m 58s.xml">
-      <configuration name="Doctest mover_torre" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -231,12 +255,12 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Python Console" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32937366" />
+      <window_info anchor="bottom" id="Python Console" order="1" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32937366" />
+
       <window_info anchor="bottom" id="Run" order="6" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -248,6 +272,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+
     <entry file="file://$PROJECT_DIR$/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">

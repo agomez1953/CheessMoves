@@ -41,7 +41,6 @@ def obtener_nombre_pieza(simbolo):
 
 def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
     """
-
     :param tablero:
     :param x_inicial:
     :param y_inicial:
@@ -99,6 +98,7 @@ def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
 
 
     return tablero
+
 def mover_alfil(tablero, x_inicial, y_inicial, x_final, y_final):
     """
 
@@ -109,8 +109,15 @@ def mover_alfil(tablero, x_inicial, y_inicial, x_final, y_final):
     :param y_final:
     :return:
     """
+    x_auxiliar = x_inicial + 1
+
     tablerocop = tablero.copy()
-    if (x_inicial - y_inicial == x_final - y_final) or (y_inicial - x_inicial == y_final - x_final) and tablerocop[x_inicial][y_inicial].lower() == 'r':
-        if
+    if tablerocop[x_inicial][y_inicial].lower() == 'r' and (x_inicial - y_inicial == x_final - y_final) or (
+            y_inicial - x_inicial == y_final - x_final):
+        if x_inicial != x_final:
+            for x in range(x_auxiliar, x_final):
+                if tablero[x][x_inicial] != " ":
+                    raise ValueError('El camino no es valido')
+
 
 
