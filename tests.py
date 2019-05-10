@@ -10,13 +10,89 @@ class Test_movimientos(TestCase):
         self.assertEquals(espero, obtengo)
 
     def test_obtener_nombre_pieza(self):
-        dado = []
-        espero = ""
+        
+        dado = 'p'
+        espero = "Peon blanco"
+        obtengo = obtener_nombre_pieza(dado)
+        self.assertEquals(espero, obtengo)
+
+        dado = 't'
+        espero = "Torre blanco"
+        obtengo = obtener_nombre_pieza(dado)
+        self.assertEquals(espero, obtengo)
+
+        dado = 'k'
+        espero = "Caballo blanco"
+        obtengo = obtener_nombre_pieza(dado)
+        self.assertEquals(espero, obtengo)
+
+
+        dado = 'a'
+        espero = "Alfil blanco"
+        obtengo = obtener_nombre_pieza(dado)
+        self.assertEquals(espero, obtengo)
+
+        dado = 'q'
+        espero = "Reina blanco"
+        obtengo = obtener_nombre_pieza(dado)
+        self.assertEquals(espero, obtengo)
+
+        dado = 'r'
+        espero = "Rey blanco"
+        obtengo = obtener_nombre_pieza(dado)
+        self.assertEquals(espero, obtengo)
+
+        dado = 'p'
+        espero = "Peon blanco"
+        obtengo = obtener_nombre_pieza(dado)
+        self.assertEquals(espero, obtengo)
+
+        dado = 'T'
+        espero = "Torre Negro"
+        obtengo = obtener_nombre_pieza(dado)
+        self.assertEquals(espero, obtengo)
+
+        dado = 'K'
+        espero = "Caballo Negro"
+        obtengo = obtener_nombre_pieza(dado)
+        self.assertEquals(espero, obtengo)
+
+        dado = 'A'
+        espero = "Alfil Negro"
+        obtengo = obtener_nombre_pieza(dado)
+        self.assertEquals(espero, obtengo)
+
+        dado = 'Q'
+        espero = "Reina Negro"
+        obtengo = obtener_nombre_pieza(dado)
+        self.assertEquals(espero, obtengo)
+
+        dado = 'R'
+        espero = "Rey Negro"
         obtengo = obtener_nombre_pieza(dado)
         self.assertEquals(espero, obtengo)
 
     def test_mover_torre(self):
-        dado = []
-        espero = []
-        obtengo = mover_torre(dado[0], dado[1], dado[2] , dado[3], dado[4])
+        dado = [
+            ['t', 'k', 'a', 'q', 'r', 'a', 'k', 't'],
+            ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'],
+            [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+            [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+            [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+            [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+            ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
+            ['T', 'K', 'A', 'R', 'Q', 'A', 'K', 'T']
+        ]
+        espero = [
+            [' ', 'k', 'a', 'q', 'r', 'a', 'k', 't'],
+            [' ', 'p', 'p', 'p', 'p', 'p', 'p', 'p'],
+            [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+            [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+            ['t', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+            [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
+            ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
+            ['T', 'K', 'A', 'R', 'Q', 'A', 'K', 'T']
+        ]
+        obtengo = mover_torre(dado[0], dado[0], dado[0], dado[4], dado[0])
         self.assertEquals(espero, obtengo)
+        self.assertRaises(ValueError)
