@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="526da42d-35c2-45d4-b19a-71a2801728cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movimientos.py" beforeDir="false" afterPath="$PROJECT_DIR$/movimientos.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movimientos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            <state relative-caret-position="434">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
             </state>
           </provider>
         </entry>
@@ -95,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctest mover_torre">
+  <component name="RunManager" selected="Python tests.Doctests in movimientos">
     <configuration name="Doctest mover_torre" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="CheessMoves" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,8 +168,27 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Doctests in movimientos" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="CheessMoves" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movimientos.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Doctests in movimientos" />
         <item itemvalue="Python tests.Doctest mover_torre" />
         <item itemvalue="Python tests.Doctest obtener_nombre_pieza (2)" />
         <item itemvalue="Python tests.Doctest obtener_nombre_pieza" />
@@ -191,9 +210,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 36m 47s.xml">
-      <configuration name="Doctest mover_torre" configurationId="tests" />
-    </history-entry>
     <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 37m 01s.xml">
       <configuration name="Doctest mover_torre" configurationId="tests" />
     </history-entry>
@@ -221,9 +237,13 @@
     <history-entry file="Doctest_mover_torre - 2019.05.09 at 18h 39m 54s.xml">
       <configuration name="Doctest mover_torre" configurationId="tests" />
     </history-entry>
+    <history-entry file="Doctests_in_movimientos - 2019.05.09 at 19h 13m 50s.xml">
+      <configuration name="Doctests in movimientos" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -247,8 +267,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/movimientos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        <state relative-caret-position="434">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>

@@ -64,6 +64,8 @@ def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
         tablerocop[x_inicial][y_final] = 't'
         tablerocop[x_inicial][y_inicial] = ' '
     return tablerocop
+
+
 def mover_alfil(tablero, x_inicial, y_inicial, x_final, y_final):
     """
 
@@ -74,8 +76,6 @@ def mover_alfil(tablero, x_inicial, y_inicial, x_final, y_final):
     :param y_final:
     :return:
     """
-    tablerocop = tablero.copy()
-    if tablerocop[x_inicial][y_inicial].lower() == 'r' and (x_inicial - y_inicial == x_final - y_final) or (y_inicial - x_inicial == y_final - x_final):
 
 
 
