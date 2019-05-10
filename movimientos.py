@@ -40,10 +40,7 @@ def obtener_nombre_pieza(simbolo):
         return 'No es una pieza'
 
 def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
-     # Valido que se este moviendo una torre
-     if tablero[y_inicial][x_inicial].lower() == 't':
-
-<<<<<<< HEAD
+    """
     :param tablero:
     :param x_inicial:
     :param y_inicial:
@@ -51,24 +48,9 @@ def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
     :param y_final:
     :return:
     """
-    tablerocop = tablero.copy()
-    if tablerocop[x_inicial][y_inicial].lower() == 't' and (x_inicial == x_final or y_inicial == y_final):
-        if x_inicial != x_final:
-            for x in range(x_inicial + 1, x_final):
-                if tablerocop[x][y_inicial] != ' ':
-                    raise ValueError('El camino no es valido')
-        tablerocop[x_final][y_inicial] = 't'
-        tablerocop[x_inicial][y_inicial] = ' '
-        if y_inicial != y_final:
-            for y in range(y_inicial + 1, y_final):
-                if tablerocop[x_inicial][y] != ' ':
-                    raise ValueError('El camino no es valido')
-        tablerocop[x_inicial][y_final] = 't'
-        tablerocop[x_inicial][y_inicial] = ' '
-    return tablerocop
+    # Valido que se este moviendo una torre
+    if tablero[y_inicial][x_inicial].lower() == 't':
 
-
-=======
         # Valido que se este moviendo en y
         if x_inicial == x_final and y_inicial != y_final:
 
@@ -116,7 +98,7 @@ def mover_torre(tablero, x_inicial, y_inicial, x_final, y_final):
 
 
     return tablero
->>>>>>> e2489a09a431c9d704d8d4245b34c1c6f0971e07
+
 def mover_alfil(tablero, x_inicial, y_inicial, x_final, y_final):
     """
 
@@ -127,6 +109,15 @@ def mover_alfil(tablero, x_inicial, y_inicial, x_final, y_final):
     :param y_final:
     :return:
     """
+    x_auxiliar = x_inicial + 1
+
+    tablerocop = tablero.copy()
+    if tablerocop[x_inicial][y_inicial].lower() == 'r' and (x_inicial - y_inicial == x_final - y_final) or (
+            y_inicial - x_inicial == y_final - x_final):
+        if x_inicial != x_final:
+            for x in range(x_auxiliar, x_final):
+                if tablero[x][x_inicial] != " ":
+                    raise ValueError('El camino no es valido')
 
 
 
